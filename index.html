@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -93,7 +93,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '6.0.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: false,
@@ -320,90 +320,18 @@
       
         
           
-            <h1 id="认识markdown"><a href="#认识markdown" class="headerlink" title="认识markdown"></a>认识markdown</h1><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
-<p>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</p>
-<p>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</p>
-<p>Markdown 编写的文档后缀为 .md, .markdown。</p>
-<h1 id="markdown编辑器"><a href="#markdown编辑器" class="headerlink" title="markdown编辑器"></a>markdown编辑器</h1><p><a target="_blank" rel="noopener" href="https://typora.io/">Typora</a></p>
-<p>(记事本也行)</p>
-<h1 id="markdown编辑"><a href="#markdown编辑" class="headerlink" title="markdown编辑"></a>markdown编辑</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><ul>
-<li><p>一级标题前用#</p>
-</li>
-<li><p>二级标题前用##</p>
-</li>
-<li><p> 最多到六级标题</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
-<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2></li>
-<li><p><em>斜体</em></p>
-</li>
-<li><p><strong>粗体</strong></p>
-</li>
-<li><p><em><strong>粗斜体</strong></em></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br><span class="line">**粗体**</span><br><span class="line">***粗斜体***</span><br></pre></td></tr></table></figure>
-<h2 id="线"><a href="#线" class="headerlink" title="线"></a>线</h2><ul>
-<li><del>删除线</del><br> <code>~~删除线~~</code></li>
-<li><u>下划线</u><br> <code>&lt;u&gt;下划线&lt;/u&gt;</code></li>
-</ul>
-</li>
-<li><p>分隔线</p>
-</li>
-</ul>
-<hr>
-<hr>
-<hr>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">***</span><br><span class="line">* * *</span><br><span class="line">********</span><br></pre></td></tr></table></figure>
+          认识markdownMarkdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
+Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。
+Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。
 
-<ul>
-<li> 这是<a href="%E8%BF%99%E6%98%AF%E8%84%9A%E6%B3%A8">^脚注</a> (在最下面)</li>
-</ul>
-<p>  <code>[^脚注]</code></p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br></pre></td></tr></table></figure></li>
-</ul>
-<ul>
-<li>嵌套元素<ul>
-<li>第一个嵌套元素</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">+ 嵌套元素</span><br><span class="line">   + 第一个嵌套元素 </span><br></pre></td></tr></table></figure>
-
-<h2 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h2><blockquote>
-<p>区块引用</p>
-<blockquote>
-<p>区块嵌套</p>
-</blockquote>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 区块引用</span><br><span class="line">&gt;</span><br><span class="line">&gt; &gt; 区块嵌套</span><br></pre></td></tr></table></figure>
-
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>单行代码前后各用一个`<br>多行代码前后用```</p>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><p>这是一个链接 <a target="_blank" rel="noopener" href="https://www.bilibili.com/">b站</a><br><code>这是一个链接 [b站](https://www.bilibili.com/)</code></p>
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><img src="https://i0.hdslb.com/bfs/album/5a472d7c8370b13f434460cd277199a50d1013ea.jpg" alt="EDG" style="zoom:50%;" />
-
-<p><code>![alt 属性文本](图片地址)</code></p>
-<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table>
-<thead>
-<tr>
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody></table>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
-
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p><del>我不会</del></p>
-
-          
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2021/11/07/md%E6%A0%BC%E5%BC%8F%E5%AD%A6%E4%B9%A0/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -519,21 +447,15 @@
       
         
           
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-          
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2021/11/06/hello-world/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -703,7 +625,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Pisces</a> v6.0.0</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.0.0</div>
 
 
 
@@ -752,6 +674,8 @@
 
 
 
+  
+
 
 
 
@@ -775,6 +699,11 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
